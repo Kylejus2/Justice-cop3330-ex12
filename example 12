@@ -12,7 +12,7 @@ public class Main
     System.out.println("Enter the number of years the amount is invested: ");
     double time = input.nextDouble();
     double amount= principal*(1+(roi*time));
-    System.out.println("The amount at the end of the investment is : " + amount);
+    System.out.println("After " + time + " years at " + roi + "%, the investment will be worth $" + amount);
     input.close();
   }
 }
